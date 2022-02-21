@@ -30,11 +30,11 @@ namespace API.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("PictureUrl")
+                        .HasColumnType("TEXT");
+
                     b.Property<long>("Price")
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("PrictureUrl")
-                        .HasColumnType("TEXT");
 
                     b.Property<int>("QuantityInStock")
                         .HasColumnType("INTEGER");
