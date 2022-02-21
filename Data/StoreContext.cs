@@ -5,9 +5,9 @@ using API.Entities;
 namespace API.Data
 
 {
-    public class StoreContex : DbContext  
+    public class StoreContext : DbContext  
     {
-        public StoreContex(DbContextOptions options) : base (options)
+        public StoreContext(DbContextOptions options) : base (options)
         {
             
 
